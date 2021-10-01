@@ -2,7 +2,7 @@
   <div id="app" :class="typeof weather.main != 'undefined' && weather.main.temp > 16 ? 'warm' : ''">
     <main>
       <div class="page-name">
-        Weather Today
+        <h1>WEATHER TODAY</h1>
       </div>
     <div class="search-box">
       <input 
