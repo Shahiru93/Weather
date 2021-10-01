@@ -1,6 +1,9 @@
 <template>
   <div id="app" :class="typeof weather.main != 'undefined' && weather.main.temp > 16 ? 'warm' : ''">
     <main>
+      <div class="page-name">
+        Weather Today
+      </div>
     <div class="search-box">
       <input 
         type="text" 
@@ -91,6 +94,13 @@
   main {
     min-height: 100vh;
     padding: 25px;
+  }
+  .page-name {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 30px;
   }
   .search-box {
     width: 100%;
