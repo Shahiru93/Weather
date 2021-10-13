@@ -8,7 +8,7 @@
     <div class="search-box">
       <input 
         type="text" 
-        class="search-bar" 
+        class="search-bar"
         placeholder="Search..."
         v-model="query"
         @keypress="fetchWeather"
